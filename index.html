@@ -1,0 +1,617 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Adopta un Espacio | CECyTES</title>
+
+    <meta name="description" content="Adopta un Espacio CECyTES Justo Sierra Hermosillo IV. Proyecto escolar dedicado al cuidado, limpieza y conservación de los espacios escolares.">
+
+    <meta name="author" content="CECyTES Justo Sierra">
+
+    <meta name="robots" content="index, follow">
+
+    <!-- Verificación de Google -->
+   <meta name="google-site-verification" content="JyjQOQEeb_qV2yXgtQuJ3ZGUOedYx-vSoNbgeSFPZcY" />
+    <meta property="og:title" content="Adopta un Espacio | CECyTES">
+    <meta property="og:description" content="Unidos por un plantel más limpio, verde y sustentable.">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body id="inicio">
+
+<header class="encabezado">
+    <nav class="menu contenedor">
+        <a href="#inicio" class="logo">
+            <img src="imagenes/logo.png" alt="Logo CECyTES">
+            <span>CECyTES Hermosillo IV</span>
+        </a>
+
+        <div class="enlaces">
+            <a href="#inicio" data-i18n="Inicio">Inicio</a>
+            <a href="#quienes-somos" data-i18n="Nosotros">Nosotros</a>
+            <a href="#usuarios" data-i18n="Usuarios">Usuarios</a>
+            <a href="#espacios" data-i18n="Espacios">Espacios</a>
+            <a href="#actividades" data-i18n="Actividades">Actividades</a>
+            <a href="#campanas" data-i18n="Campañas">Campañas</a>
+            <a href="#reportes" data-i18n="Reportes">Reportes</a>
+            <a href="#galeria" data-i18n="Galería">Galería</a>
+        </div>
+
+        <select id="selector-idioma" class="selector-idioma" aria-label="Seleccionar idioma">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+        </select>
+    </nav>
+</header>
+
+<main>
+
+    <section class="portada">
+        <div class="portada-contenido contenedor">
+            <div class="portada-texto">
+                <span class="etiqueta" data-i18n="CECyTES · PROYECTO PAEC">CECyTES · PROYECTO PAEC</span>
+                <h1 data-i18n="PROYECTO 6">PROYECTO 6</h1>
+                <h2 data-i18n="ADOPTA UN ESPACIO">ADOPTA UN ESPACIO</h2>
+
+                <p data-i18n="Unidos por un plantel más limpio, verde y sustentable. Cada acción cuenta para mejorar nuestra escuela.">
+                    Unidos por un plantel más limpio, verde y sustentable.
+                    Cada acción cuenta para mejorar nuestra escuela.
+                </p>
+
+                <a href="#quienes-somos" class="boton" data-i18n="Conoce nuestro proyecto">
+                    Conoce nuestro proyecto
+                </a>
+
+                <a href="#espacios" class="boton boton-secundario" data-i18n="Conoce los espacios">
+                    Conoce los espacios
+                </a>
+            </div>
+
+            <div class="imagen-reciclaje">
+                <img src="imagenes/simbolo-reciclaje.png" alt="Símbolo de reciclaje">
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion" id="quienes-somos">
+        <div class="contenedor">
+            <span class="etiqueta" data-i18n="NUESTRA MISIÓN">NUESTRA MISIÓN</span>
+            <h2 data-i18n="¿Quiénes somos?">¿Quiénes somos?</h2>
+
+            <p class="texto-seccion" data-i18n="Somos una comunidad estudiantil del CECyTES Justo Sierra comprometida con el cuidado del medio ambiente. A través del proyecto Adopta un espacio, buscamos mejorar las condiciones de nuestra escuela mediante la limpieza, el mantenimiento y la conservación de sus espacios.">
+                Somos una comunidad estudiantil del CECyTES Justo Sierra
+                comprometida con el cuidado del medio ambiente. A través
+                del proyecto Adopta un espacio, buscamos mejorar las
+                condiciones de nuestra escuela mediante la limpieza,
+                el mantenimiento y la conservación de sus espacios.
+            </p>
+
+            <p class="texto-seccion" data-i18n="Nuestro objetivo es que los estudiantes, docentes y personal del plantel participen en el cuidado de un área escolar durante el semestre, promoviendo la responsabilidad y el trabajo en equipo.">
+                Nuestro objetivo es que los estudiantes, docentes y
+                personal del plantel participen en el cuidado de un área
+                escolar durante el semestre, promoviendo la responsabilidad
+                y el trabajo en equipo.
+            </p>
+        </div>
+    </section>
+
+    <section class="seccion fondo-claro" id="usuarios">
+        <div class="contenedor">
+            <span class="etiqueta" data-i18n="PARTICIPACIÓN">PARTICIPACIÓN</span>
+            <h2 data-i18n="Registro de usuarios">Registro de usuarios</h2>
+
+            <p class="texto-seccion" data-i18n="En este apartado se registran las personas que participan en el proyecto, como alumnos, docentes y personal administrativo.">
+                En este apartado se registran las personas que participan
+                en el proyecto, como alumnos, docentes y personal administrativo.
+            </p>
+
+            <form class="formulario">
+                <h3 data-i18n="Datos del participante">Datos del participante</h3>
+
+                <div class="grid-formulario">
+                    <div class="campo">
+                        <label for="nombre-usuario" data-i18n="Nombre completo">Nombre completo</label>
+                        <input type="text" id="nombre-usuario" required
+                            placeholder="Escribe tu nombre completo"
+                            data-placeholder="Escribe tu nombre completo">
+                    </div>
+
+                    <div class="campo">
+                        <label for="tipo-usuario" data-i18n="Tipo de usuario">Tipo de usuario</label>
+                        <select id="tipo-usuario" required>
+                            <option value="" data-i18n="Selecciona una opción">Selecciona una opción</option>
+                            <option data-i18n="Alumno">Alumno</option>
+                            <option data-i18n="Docente">Docente</option>
+                            <option data-i18n="Personal administrativo">Personal administrativo</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="grupo-usuario" data-i18n="Grupo o área">Grupo o área</label>
+                        <input type="text" id="grupo-usuario" placeholder="Ejemplo: 5A"
+                            data-placeholder="Ejemplo: 5A">
+                    </div>
+
+                    <div class="campo">
+                        <label for="correo-usuario" data-i18n="Correo electrónico">Correo electrónico</label>
+                        <input type="email" id="correo-usuario" placeholder="ejemplo@correo.com"
+                            data-placeholder="ejemplo@correo.com">
+                    </div>
+
+                    <div class="campo campo-completo">
+                        <label for="equipo-usuario" data-i18n="Nombre del equipo">Nombre del equipo</label>
+                        <input type="text" id="equipo-usuario" placeholder="Nombre del equipo"
+                            data-placeholder="Nombre del equipo">
+                    </div>
+                </div>
+
+                <button type="submit" class="boton" data-i18n="Registrar participante">
+                    Registrar participante
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="seccion" id="espacios">
+        <div class="contenedor">
+            <span class="etiqueta" data-i18n="ÁREAS ESCOLARES">ÁREAS ESCOLARES</span>
+            <h2 data-i18n="Registro de espacios adoptados">Registro de espacios adoptados</h2>
+
+            <p class="texto-seccion" data-i18n="Permite identificar los espacios que serán atendidos durante el proyecto, indicando su nombre, ubicación, tipo y responsable.">
+                Permite identificar los espacios que serán atendidos
+                durante el proyecto, indicando su nombre, ubicación,
+                tipo y responsable.
+            </p>
+
+            <form class="formulario">
+                <h3 data-i18n="Información del espacio">Información del espacio</h3>
+
+                <div class="grid-formulario">
+                    <div class="campo">
+                        <label for="nombre-espacio" data-i18n="Nombre del espacio">Nombre del espacio</label>
+                        <input type="text" id="nombre-espacio" required
+                            placeholder="Ejemplo: Jardín principal"
+                            data-placeholder="Ejemplo: Jardín principal">
+                    </div>
+
+                    <div class="campo">
+                        <label for="tipo-espacio" data-i18n="Tipo de espacio">Tipo de espacio</label>
+                        <select id="tipo-espacio" required>
+                            <option value="" data-i18n="Selecciona el tipo">Selecciona el tipo</option>
+                            <option data-i18n="Jardín">Jardín</option>
+                            <option data-i18n="Área verde">Área verde</option>
+                            <option data-i18n="Pasillo">Pasillo</option>
+                            <option data-i18n="Cancha">Cancha</option>
+                            <option data-i18n="Patio">Patio</option>
+                            <option data-i18n="Salón">Salón</option>
+                            <option data-i18n="Biblioteca">Biblioteca</option>
+                            <option data-i18n="Otro">Otro</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="ubicacion-espacio" data-i18n="Ubicación">Ubicación</label>
+                        <input type="text" id="ubicacion-espacio" required
+                            placeholder="Indica dónde se encuentra"
+                            data-placeholder="Indica dónde se encuentra">
+                    </div>
+
+                    <div class="campo">
+                        <label for="responsable-espacio" data-i18n="Responsable o equipo">Responsable o equipo</label>
+                        <input type="text" id="responsable-espacio"
+                            placeholder="Nombre del responsable"
+                            data-placeholder="Nombre del responsable">
+                    </div>
+
+                    <div class="campo campo-completo">
+                        <label for="descripcion-espacio" data-i18n="Descripción del espacio">Descripción del espacio</label>
+                        <textarea id="descripcion-espacio" rows="3"
+                            placeholder="Describe las condiciones del espacio"
+                            data-placeholder="Describe las condiciones del espacio"></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" class="boton" data-i18n="Registrar espacio">
+                    Registrar espacio
+                </button>
+            </form>
+
+            <h3 class="subtitulo" data-i18n="Tipos de espacios que pueden adoptarse">
+                Tipos de espacios que pueden adoptarse
+            </h3>
+
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <h3 data-i18n="Áreas verdes">Áreas verdes</h3>
+                    <p data-i18n="Cuidado de plantas, árboles y jardines escolares.">
+                        Cuidado de plantas, árboles y jardines escolares.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3 data-i18n="Pasillos">Pasillos</h3>
+                    <p data-i18n="Mantenimiento de zonas de tránsito y circulación.">
+                        Mantenimiento de zonas de tránsito y circulación.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3 data-i18n="Cancha y patio">Cancha y patio</h3>
+                    <p data-i18n="Limpieza y conservación de espacios compartidos.">
+                        Limpieza y conservación de espacios compartidos.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3 data-i18n="Salones">Salones</h3>
+                    <p data-i18n="Organización y limpieza de las aulas escolares.">
+                        Organización y limpieza de las aulas escolares.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion fondo-claro" id="actividades">
+        <div class="contenedor">
+            <span class="etiqueta" data-i18n="TRABAJO Y MANTENIMIENTO">TRABAJO Y MANTENIMIENTO</span>
+            <h2 data-i18n="Registro de actividades realizadas">Registro de actividades realizadas</h2>
+
+            <p class="texto-seccion" data-i18n="En este apartado se registran las acciones realizadas en cada espacio adoptado, con la finalidad de llevar un seguimiento de su mantenimiento.">
+                En este apartado se registran las acciones realizadas
+                en cada espacio adoptado, con la finalidad de llevar
+                un seguimiento de su mantenimiento.
+            </p>
+
+            <form class="formulario">
+                <h3 data-i18n="Datos de la actividad">Datos de la actividad</h3>
+
+                <div class="grid-formulario">
+                    <div class="campo">
+                        <label for="nombre-actividad" data-i18n="Nombre de la actividad">Nombre de la actividad</label>
+                        <input type="text" id="nombre-actividad" required
+                            placeholder="Ejemplo: Limpieza del jardín"
+                            data-placeholder="Ejemplo: Limpieza del jardín">
+                    </div>
+
+                    <div class="campo">
+                        <label for="tipo-actividad" data-i18n="Tipo de actividad">Tipo de actividad</label>
+                        <select id="tipo-actividad" required>
+                            <option value="" data-i18n="Selecciona una actividad">Selecciona una actividad</option>
+                            <option data-i18n="Limpieza">Limpieza</option>
+                            <option data-i18n="Riego">Riego</option>
+                            <option data-i18n="Poda">Poda</option>
+                            <option data-i18n="Reforestación">Reforestación</option>
+                            <option data-i18n="Pintura">Pintura</option>
+                            <option data-i18n="Reciclaje">Reciclaje</option>
+                            <option data-i18n="Organización">Organización</option>
+                            <option data-i18n="Mantenimiento">Mantenimiento</option>
+                            <option data-i18n="Otra">Otra</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="espacio-actividad" data-i18n="Espacio donde se realizó">Espacio donde se realizó</label>
+                        <input type="text" id="espacio-actividad" required
+                            placeholder="Nombre del espacio"
+                            data-placeholder="Nombre del espacio">
+                    </div>
+
+                    <div class="campo">
+                        <label for="fecha-actividad" data-i18n="Fecha de realización">Fecha de realización</label>
+                        <input type="date" id="fecha-actividad" required>
+                    </div>
+
+                    <div class="campo campo-completo">
+                        <label for="responsables-actividad" data-i18n="Participantes o responsables">Participantes o responsables</label>
+                        <input type="text" id="responsables-actividad"
+                            placeholder="Nombres de los participantes"
+                            data-placeholder="Nombres de los participantes">
+                    </div>
+
+                    <div class="campo campo-completo">
+                        <label for="descripcion-actividad" data-i18n="Descripción de la actividad">Descripción de la actividad</label>
+                        <textarea id="descripcion-actividad" rows="4" required
+                            placeholder="Describe qué se realizó y qué resultados se obtuvieron"
+                            data-placeholder="Describe qué se realizó y qué resultados se obtuvieron"></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" class="boton" data-i18n="Registrar actividad">
+                    Registrar actividad
+                </button>
+            </form>
+
+            <h3 class="subtitulo" data-i18n="Actividades principales del proyecto">
+                Actividades principales del proyecto
+            </h3>
+
+            <div class="tabla-contenedor">
+                <table class="tabla">
+                    <thead>
+                        <tr>
+                            <th data-i18n="Actividad">Actividad</th>
+                            <th data-i18n="Descripción">Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-i18n="Limpieza">Limpieza</td>
+                            <td data-i18n="Retirar basura y mantener limpias las áreas.">Retirar basura y mantener limpias las áreas.</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="Riego">Riego</td>
+                            <td data-i18n="Proporcionar agua a las plantas cuando sea necesario.">Proporcionar agua a las plantas cuando sea necesario.</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="Poda">Poda</td>
+                            <td data-i18n="Dar mantenimiento a las plantas y áreas verdes.">Dar mantenimiento a las plantas y áreas verdes.</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="Reforestación">Reforestación</td>
+                            <td data-i18n="Plantar y cuidar especies vegetales adecuadas.">Plantar y cuidar especies vegetales adecuadas.</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="Pintura">Pintura</td>
+                            <td data-i18n="Mejorar la apariencia de espacios escolares autorizados.">Mejorar la apariencia de espacios escolares autorizados.</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="Reciclaje">Reciclaje</td>
+                            <td data-i18n="Separar y recolectar materiales aprovechables.">Separar y recolectar materiales aprovechables.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion" id="campanas">
+        <div class="contenedor">
+            <span class="etiqueta" data-i18n="PARTICIPACIÓN ESCOLAR">PARTICIPACIÓN ESCOLAR</span>
+            <h2 data-i18n="Registro de campañas">Registro de campañas</h2>
+
+            <p class="texto-seccion" data-i18n="Las campañas permiten organizar actividades colectivas para mejorar las condiciones del plantel y promover el cuidado del medio ambiente.">
+                Las campañas permiten organizar actividades colectivas
+                para mejorar las condiciones del plantel y promover
+                el cuidado del medio ambiente.
+            </p>
+
+            <form class="formulario">
+                <h3 data-i18n="Información de la campaña">Información de la campaña</h3>
+
+                <div class="grid-formulario">
+                    <div class="campo">
+                        <label for="nombre-campana" data-i18n="Nombre de la campaña">Nombre de la campaña</label>
+                        <input type="text" id="nombre-campana" required
+                            placeholder="Ejemplo: Escuela limpia"
+                            data-placeholder="Ejemplo: Escuela limpia">
+                    </div>
+
+                    <div class="campo">
+                        <label for="tipo-campana" data-i18n="Tipo de campaña">Tipo de campaña</label>
+                        <select id="tipo-campana" required>
+                            <option value="" data-i18n="Selecciona una opción">Selecciona una opción</option>
+                            <option data-i18n="Limpieza">Limpieza</option>
+                            <option data-i18n="Reciclaje">Reciclaje</option>
+                            <option data-i18n="Reforestación">Reforestación</option>
+                            <option data-i18n="Riego y jardinería">Riego y jardinería</option>
+                            <option data-i18n="Pintura">Pintura</option>
+                            <option data-i18n="Concientización ambiental">Concientización ambiental</option>
+                            <option data-i18n="Otra">Otra</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="fecha-campana" data-i18n="Fecha de realización">Fecha de realización</label>
+                        <input type="date" id="fecha-campana" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="lugar-campana" data-i18n="Espacio donde se realizará">Espacio donde se realizará</label>
+                        <input type="text" id="lugar-campana"
+                            placeholder="Indica el lugar"
+                            data-placeholder="Indica el lugar">
+                    </div>
+
+                    <div class="campo campo-completo">
+                        <label for="descripcion-campana" data-i18n="Descripción de la campaña">Descripción de la campaña</label>
+                        <textarea id="descripcion-campana" rows="4" required
+                            placeholder="Describe el objetivo y las actividades de la campaña"
+                            data-placeholder="Describe el objetivo y las actividades de la campaña"></textarea>
+                    </div>
+
+                    <div class="campo campo-completo">
+                        <label for="participantes-campana" data-i18n="Participantes">Participantes</label>
+                        <input type="text" id="participantes-campana"
+                            placeholder="Grupos, alumnos o equipos participantes"
+                            data-placeholder="Grupos, alumnos o equipos participantes">
+                    </div>
+                </div>
+
+                <button type="submit" class="boton" data-i18n="Registrar campaña">
+                    Registrar campaña
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="seccion fondo-claro" id="reportes">
+        <div class="contenedor">
+            <span class="etiqueta" data-i18n="SEGUIMIENTO DEL PROYECTO">SEGUIMIENTO DEL PROYECTO</span>
+            <h2 data-i18n="Consultas y reportes">Consultas y reportes</h2>
+
+            <p class="texto-seccion" data-i18n="Este apartado está diseñado para consultar las actividades realizadas y organizar los reportes según el periodo que se desee revisar.">
+                Este apartado está diseñado para consultar las actividades
+                realizadas y organizar los reportes según el periodo
+                que se desee revisar.
+            </p>
+
+            <div class="panel">
+                <h3 data-i18n="Consultar actividades por periodo">Consultar actividades por periodo</h3>
+
+                <div class="grid-formulario">
+                    <div class="campo">
+                        <label for="periodo-reporte" data-i18n="Tipo de periodo">Tipo de periodo</label>
+                        <select id="periodo-reporte">
+                            <option value="" data-i18n="Selecciona un periodo">Selecciona un periodo</option>
+                            <option data-i18n="Por semana">Por semana</option>
+                            <option data-i18n="Por mes">Por mes</option>
+                            <option data-i18n="Por semestre">Por semestre</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="fecha-inicio" data-i18n="Fecha inicial">Fecha inicial</label>
+                        <input type="date" id="fecha-inicio">
+                    </div>
+
+                    <div class="campo">
+                        <label for="fecha-fin" data-i18n="Fecha final">Fecha final</label>
+                        <input type="date" id="fecha-fin">
+                    </div>
+
+                    <div class="campo">
+                        <label for="tipo-reporte" data-i18n="Información que se desea consultar">Información que se desea consultar</label>
+                        <select id="tipo-reporte">
+                            <option value="" data-i18n="Selecciona una opción">Selecciona una opción</option>
+                            <option data-i18n="Actividades">Actividades</option>
+                            <option data-i18n="Espacios adoptados">Espacios adoptados</option>
+                            <option data-i18n="Campañas">Campañas</option>
+                            <option data-i18n="Participantes">Participantes</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="button" class="boton" id="boton-consulta" data-i18n="Consultar información">
+                    Consultar información
+                </button>
+            </div>
+
+            <h3 class="subtitulo" data-i18n="Ejemplo de organización de reportes">
+                Ejemplo de organización de reportes
+            </h3>
+
+            <div class="tabla-contenedor">
+                <table class="tabla">
+                    <thead>
+                        <tr>
+                            <th data-i18n="Periodo">Periodo</th>
+                            <th data-i18n="Información">Información</th>
+                            <th data-i18n="Objetivo">Objetivo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-i18n="Semanal">Semanal</td>
+                            <td data-i18n="Actividades de la semana">Actividades de la semana</td>
+                            <td data-i18n="Dar seguimiento al trabajo realizado.">Dar seguimiento al trabajo realizado.</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="Mensual">Mensual</td>
+                            <td data-i18n="Actividades y campañas del mes">Actividades y campañas del mes</td>
+                            <td data-i18n="Revisar los avances de cada espacio.">Revisar los avances de cada espacio.</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="Semestral">Semestral</td>
+                            <td data-i18n="Resultados generales del proyecto">Resultados generales del proyecto</td>
+                            <td data-i18n="Evaluar los cambios y mejoras obtenidas.">Evaluar los cambios y mejoras obtenidas.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion fondo-claro" id="galeria">
+        <div class="contenedor">
+            <span class="etiqueta" data-i18n="NUESTRO PLANTEL">NUESTRO PLANTEL</span>
+            <h2 data-i18n="Galería de espacios escolares">Galería de espacios escolares</h2>
+
+            <p class="texto-seccion" data-i18n="Estos son algunos de los espacios que pueden recibir atención y mantenimiento mediante el proyecto.">
+                Estos son algunos de los espacios que pueden recibir
+                atención y mantenimiento mediante el proyecto.
+            </p>
+
+            <div class="galeria">
+                <article class="galeria-tarjeta">
+                    <img src="salon.jpeg" alt="Salón de clases">
+                    <h3 data-i18n="Mi salón">Mi salón</h3>
+                    <p data-i18n="Mantenemos nuestro salón limpio y ordenado.">Mantenemos nuestro salón limpio y ordenado.</p>
+                </article>
+
+                <article class="galeria-tarjeta">
+                    <img src="area verde.jpeg" alt="Área verde">
+                    <h3 data-i18n="Áreas verdes">Áreas verdes</h3>
+                    <p data-i18n="Cuidamos las plantas y los espacios naturales.">Cuidamos las plantas y los espacios naturales.</p>
+                </article>
+
+                <article class="galeria-tarjeta">
+                    <img src="cancha.jpeg" alt="Cancha deportiva">
+                    <h3 data-i18n="Cancha deportiva">Cancha deportiva</h3>
+                    <p data-i18n="Conservamos limpia nuestra área de convivencia.">Conservamos limpia nuestra área de convivencia.</p>
+                </article>
+
+                <article class="galeria-tarjeta">
+                    <img src="pasillos.jpeg" alt="Pasillos escolares">
+                    <h3 data-i18n="Pasillos y patio">Pasillos y patio</h3>
+                    <p data-i18n="Mantenemos libres de basura las zonas de tránsito.">Mantenemos libres de basura las zonas de tránsito.</p>
+                </article>
+
+                <article class="galeria-tarjeta">
+                    <img src="biblioteca.jpeg" alt="Biblioteca escolar">
+                    <h3 data-i18n="Biblioteca">Biblioteca</h3>
+                    <p data-i18n="Cuidamos los espacios destinados al estudio.">Cuidamos los espacios destinados al estudio.</p>
+                </article>
+
+                <article class="galeria-tarjeta">
+                    <img src="laboratorio.jpeg" alt="Laboratorio escolar">
+                    <h3 data-i18n="Laboratorios">Laboratorios</h3>
+                    <p data-i18n="Protegemos los materiales y las áreas de trabajo.">Protegemos los materiales y las áreas de trabajo.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="campana">
+        <div class="contenedor campana-contenido">
+            <h2 data-i18n="¡Adopta, cuida y transforma!">¡Adopta, cuida y transforma!</h2>
+
+            <p data-i18n="Cada espacio que cuidamos es un paso hacia una escuela mejor. El cambio comienza con pequeñas acciones y el compromiso de todos.">
+                Cada espacio que cuidamos es un paso hacia una escuela mejor.
+                El cambio comienza con pequeñas acciones y el compromiso de todos.
+            </p>
+
+            <a href="#inicio" class="boton boton-claro" data-i18n="Volver al inicio ↑">
+                Volver al inicio ↑
+            </a>
+        </div>
+    </section>
+
+</main>
+
+<footer class="pie">
+    <div class="contenedor">
+        <p data-i18n="CECyTES Justo Sierra | Proyecto 6: Adopta un espacio">
+            CECyTES Justo Sierra | Proyecto 6: Adopta un espacio
+        </p>
+        <p data-i18n="Por un plantel más limpio, verde y sustentable.">
+            Por un plantel más limpio, verde y sustentable.
+        </p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
